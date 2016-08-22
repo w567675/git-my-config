@@ -3,7 +3,8 @@
     quotepath = false
     autocrlf = input
     eol = lf
-
+    // 忽略大小写, false表示不忽略大小写
+    ignorecase = false
 [alias]
     ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     co = checkout
